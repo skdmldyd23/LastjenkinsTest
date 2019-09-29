@@ -38,7 +38,6 @@ public class UserController {
 	@RequestMapping("/insertAccount")
 	public String insertAccount(Users users, Model model) {
 
-		System.out.println("인설트어카운트 \n" + users);
 		userService.insertAcc(users);
 
 		return "redirect:/";
