@@ -11,18 +11,18 @@
 	<div align="right">
 		<c:if test="${signedId == null}">
 			<div>
-				<a href="login" style="text-decoration: none ">로구잉</a> 
-				<a href="write" style="text-decoration: none ">롸잇</a>
-				 <a href="join" style="text-decoration: none ">회원가입</a>
+				<a href="login" style="text-decoration: none ">SignIn</a> 
+				<a href="write" style="text-decoration: none ">Write</a>
+				 <a href="join" style="text-decoration: none ">Sign Up</a>
 			</div>
 		</c:if>
 		<c:if test="${signedId != null}">
 			<div>
 				${signedId} ${signedName} 
-				<a href="myInfo?user_Number=${signedNumber}" style="text-decoration: none ">내정보</a> 
-				<a href="myPosts?board_Writer=${signedNumber}" style="text-decoration: none ">내글</a> 
-				<a href="write" style="text-decoration: none ">롸잇</a>
-				<a href="logout" style="text-decoration: none ">로그아웃</a>
+				<a href="myInfo?user_Number=${signedNumber}" style="text-decoration: none ">My Info</a> 
+				<a href="myPosts?board_Writer=${signedNumber}" style="text-decoration: none ">My Posts</a> 
+				<a href="write" style="text-decoration: none ">Write</a>
+				<a href="logout" style="text-decoration: none ">LogOut</a>
 			</div>
 		</c:if>
 	</div>

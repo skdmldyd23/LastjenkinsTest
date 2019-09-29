@@ -5,7 +5,6 @@
 
 <mapper namespace="boards">
 
-	<!-- mybatis-config.xml의 typeAlias에 등록해두지 않았다면이렇게 해야 한다. -->
 
 	<select id="boardtest"
 		resultType="com.ryeom.demo.board.DTO.Boards">
@@ -33,6 +32,4 @@
 		values(#{board_Title},#{board_Writer},Now(),#{board_Contents});
 	</insert>
 
-	<!-- <select id="selectMember" resultType="MemberVO"> SELECT USER_ID, USER_PW 
-		,NAME FROM USER </select> -->
 </mapper>

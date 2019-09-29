@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-© 2019 09 29 - DZ 1조 
+© 2019 09 29 - DZ group 1
 </body>
 </html>

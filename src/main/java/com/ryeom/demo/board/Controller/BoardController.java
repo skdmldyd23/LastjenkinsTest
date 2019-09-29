@@ -20,12 +20,6 @@ public class BoardController {
 	@RequestMapping("/tryWrite")
 	public String login(Boards boards, Model model) {
 		System.out.println("writer:" + boards.getBoard_Writer());
-		//추후에 내용을 확인하는 곳으로 가야함.
-		//추후에 내용을 확인하는 곳으로 가야함.
-		//추후에 내용을 확인하는 곳으로 가야함.
-		//index 말고!!!
-		System.out.println("--------------- ----------------- ----------------");
-		System.out.println("--------------- ----------------- ----------------");
 		System.out.println("tryWrite \n" + boards);
 		
 		boardService.insertContents(boards);
@@ -55,8 +49,6 @@ public class BoardController {
 	public String index(Boards boards, Model model) {
 
 		model.addAttribute("loadMyPosts",boardService.loadMyPosts(boards));
-		
-		System.out.println("되나연");
 
 		return "board/myPosts";
 	}

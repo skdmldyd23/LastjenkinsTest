@@ -5,7 +5,6 @@
 
 <mapper namespace="users">
 
-	<!-- mybatis-config.xml의 typeAlias에 등록해두지 않았다면이렇게 해야 한다. -->
 	<select id="test" resultType="com.ryeom.demo.user.DTO.Users">
 		SELECT * FROM user_table;
 	</select>
@@ -26,6 +25,4 @@
 		user_PW = #{user_PW};
 	</select>
 
-	<!-- <select id="selectMember" resultType="MemberVO"> SELECT USER_ID, USER_PW 
-		,NAME FROM USER </select> -->
 </mapper>

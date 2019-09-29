@@ -24,7 +24,6 @@ public class UserController {
 	@RequestMapping("/logout")
 	public String logout(HttpSession ses) {
 		
-		//여기서 세션 날리기 하면 된다.
 		userService.logout(ses);
 		return "redirect:/";
 	}

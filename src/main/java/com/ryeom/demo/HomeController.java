@@ -20,10 +20,8 @@ public class HomeController {
 	public String index(Model model) {
 
 		model.addAttribute("boardtest", boardService.boardTest());
-		System.out.println("index입니다.");
+		System.out.println("index");
 
-		// System.out.println(userService.Test().toString());
 		return "index";
 	}
 }
-//asdasdsadasd
