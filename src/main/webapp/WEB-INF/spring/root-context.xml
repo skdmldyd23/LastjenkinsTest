@@ -14,7 +14,7 @@
 			>
 			<!-- value="jdbc:mysql://218.39.221.76:3306/bbb?useSSL=false&amp;serverTimezone=UTC" -->
 		</property>
-		<property name="username" value="ddda"></property>
+		<property name="username" value="aaa"></property>
 		<property name="password" value="1234"></property>
 	</bean>
 
