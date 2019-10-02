@@ -19,7 +19,7 @@
 		<c:if test="${signedId != null}">
 			<div>
 				${signedId} ${signedName} 
-				<a href="myInfo?user_Number=${signedNumber}" style="text-decoration: none ">My Info</a> 
+				<a href="myInfo?user_Number=${signedNumber}" style="text-decoration: none; border-top:2px solid blue;">My Info</a> 
 				<a href="myPosts?board_Writer=${signedNumber}" style="text-decoration: none ">My Posts</a> 
 				<a href="write" style="text-decoration: none ">Write</a>
 				<a href="logout" style="text-decoration: none ">LogOut</a>
@@ -27,7 +27,7 @@
 		</c:if>
 	</div>
 	<h1 align="center"  >
-		<a href="/" style="text-decoration: none ">header page</a>
+		<a href="/" style="text-decoration: none ">Home</a>
 	</h1>
 </body>
 </html>
