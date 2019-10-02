@@ -8,7 +8,7 @@
 		id="dataSource">
 		<property name="driverClassName"
 			value="com.mysql.cj.jdbc.Driver"></property>
-			<!-- 확실안하면 뒤진다 -->
+			<!-- wjdwldnjs Ehdajdcjddl -->
 		<property name="url"
 			value="jdbc:mysql://218.39.221.76:3306/bbb?useSSL=false&amp;serverTimezone=UTC"
 			>
